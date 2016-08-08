@@ -1,0 +1,25 @@
+hash: 79cd30a6b48fcddc5f1124c8df12851c3953182789952e1880cd8d592038e6ce
+updated: 2016-08-08T23:58:14.133378758+08:00
+imports:
+- name: github.com/tabalt/gracehttp
+  version: c426abcc3224d8ee909c9f1a7207cc969053e740
+- name: github.com/urfave/cli
+  version: 168c95418e66e019fe17b8f4f5c45aa62ff80e23
+testImports:
+- name: github.com/gopherjs/gopherjs
+  version: 72e303cb5f235b23471872477b57e573dc1c71d0
+  subpackages:
+  - js
+- name: github.com/jtolds/gls
+  version: 8ddce2a84170772b95dd5d576c48d517b22cac63
+- name: github.com/smartystreets/assertions
+  version: 2063fd1cc7c975db70502811a34b06ad034ccdf2
+  subpackages:
+  - internal/go-render/render
+  - internal/oglematchers
+- name: github.com/smartystreets/goconvey
+  version: d4c757aa9afd1e2fc1832aaab209b5794eb336e1
+  subpackages:
+  - convey
+  - convey/reporting
+  - convey/gotest

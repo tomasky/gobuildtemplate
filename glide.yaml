@@ -1,0 +1,10 @@
+package: .
+import:
+- package: github.com/tabalt/gracehttp
+testImport:
+- package: github.com/smartystreets/goconvey
+  version: ^1.6.2
+  subpackages:
+  - convey
+ignore:
+   - wooz/somes
