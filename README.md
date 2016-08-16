@@ -1,4 +1,4 @@
-gobuildtemplate
+go-build-template
 ===
 
 ### ABOUT
