@@ -2,11 +2,15 @@ package main
 
 import (
 	"fmt"
-	"github.com/urfave/cli"
 	"os"
+	"somes"
+
+	"github.com/urfave/cli"
 )
 
 func main() {
+
+	somes.Some()
 	app := cli.NewApp()
 	app.Name = "boom"
 	app.Usage = "make an explosive entrance"

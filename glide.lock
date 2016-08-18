@@ -1,6 +1,17 @@
-hash: 79cd30a6b48fcddc5f1124c8df12851c3953182789952e1880cd8d592038e6ce
-updated: 2016-08-08T23:58:14.133378758+08:00
+hash: e659df182d01dc8f0a8eda59847d8c12827962b1d3c97815076d7fe63e2f2763
+updated: 2016-08-19T01:25:17.885201454+08:00
 imports:
+- name: github.com/ant0ine/go-json-rest
+  version: 3a807d6d8d36e0f9175d6c292030fce09bcbb2db
+  subpackages:
+  - rest
+  - rest/trie
+- name: github.com/go-sql-driver/mysql
+  version: 0b58b37b664c21f3010e836f1b931e1d0b0b0685
+- name: github.com/jinzhu/gorm
+  version: 35a2a004d880453f0bbd3716bcc63da1cb15b77b
+- name: github.com/jinzhu/inflection
+  version: 74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff
 - name: github.com/tabalt/gracehttp
   version: c426abcc3224d8ee909c9f1a7207cc969053e740
 - name: github.com/urfave/cli

@@ -7,4 +7,4 @@ testImport:
   subpackages:
   - convey
 ignore:
-   - wooz/somes
+   - somes

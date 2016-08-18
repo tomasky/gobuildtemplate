@@ -2,8 +2,8 @@ package gotest
 
 import (
 	"errors"
+	. "somes"
 	"testing"
-	. "wooz/somes"
 )
 
 func Division(a, b float64) (float64, error) {
